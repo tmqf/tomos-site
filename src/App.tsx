@@ -62,10 +62,10 @@ function App() {
                         <img className="rounded-full sm:h-[30%] md:h-[30%] lg:h-[40%] mx-auto" src="https://avatars.githubusercontent.com/u/67664316?v=4" alt="Tomos Github Avatar"></img>
 
                         <p className="text-ellipsis text-center sm:text-[1em] md: text-[1em] lg:text-[1.5em] leading-relaxed">
-                            This website was purely made to show what I am making or have made.<br/>
-                            This is also one of two websites I have made with a framework,so if it sucks, I'm sorry...<br/>
+                            This website was purely made <span className="font-bold text-blue">to show what I am making or have made.</span><br/>
+                            This is also <span className="font-bold text-blue">one of two websites I have made with a framework,</span> so if it sucks, I'm sorry...<br/>
                             All the code from this website, even updates will be pushed to my <a className="font-bold text-blue hover:text-lavender" href="https://github.com/tomosus" target="_blank">Github page.</a><br/>
-                            If you have any problems with the site or any suggestions you may add me on Discord down below.<br/>
+                            If you have any problems with the site or any suggestions <span className="font-bold text-blue">you may add me on Discord</span> down below.<br/>
                             Code is hosted on <a className="font-bold text-blue hover:text-lavender" href="https://vercel.com/" target="_blank">Vercel.</a>
                         </p>
                     </div>
