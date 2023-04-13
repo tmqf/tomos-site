@@ -8,10 +8,11 @@ function App() {
 
         <Helmet><title>tomos - Home</title></Helmet>
 
-        {/* FIRST DIV */}
         <div className="grid grid-rows-[50em_minmax(50em,_1fr)] text-lavender">
+
+            {/* FIRST DIV */}
             <div className="flex flex-row items-stretch flex-col sm:flex-col md:flex-col lg:flex-row">
-                <div className="w-screen sm:w-screen pt-[25px] text-[7em] md:w-screen lg:w-[55%] font-['Verdana'] text-center sm:pt-[50px] md:pt-[50px] lg:pt-[220px] select-none sm:text-[9.5em] md:text-[9.5em] lg:text-[12em]">
+                <div className="w-screen sm:w-screen pt-[25px] text-[5.5em] md:w-screen lg:w-[55%] font-['Verdana'] text-center sm:pt-[50px] md:pt-[50px] lg:pt-[220px] select-none sm:text-[9.5em] md:text-[9.5em] lg:text-[12em]">
 
                     <span className="font-bold hover:text-[1.5em] hover:animate-borderColour hover:transition-all duration-500">t</span>
                     <span className="font-bold hover:text-[1.5em] hover:animate-borderColour hover:transition-all duration-500">o</span>
@@ -21,7 +22,7 @@ function App() {
 
                 </div>
                 <div className="w-screen sm:w-screen md:w-screen lg:w-[45%] select-none text-center">
-                    <p className="text-[0.7em] sm:text-[0.7em] md:text-[0.73em] lg:text-[1em]">
+                    <p className="text-[0.5em] sm:text-[0.7em] md:text-[0.73em] lg:text-[1em]">
                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -61,9 +62,9 @@ function App() {
 
 
             {/* SECOND DIV */}
-            <div className="bg-surface1 flex flex-col flex-wrap item-stretch sm:mt-[10%] md:mt-[10%] lg:mt-[0%]">
+            <div className="bg-surface1 flex flex-col flex-wrap item-stretch">
                 <div className="h-screen">
-                    <div className="h-[50%] pt-[5%] mx-[5%]">
+                    <div className="h-[50%] pt-[5%] w-screen">
 
                         <img className="h-[30%] rounded-full sm:h-[30%] md:h-[30%] lg:h-[40%] mx-auto" src="https://avatars.githubusercontent.com/u/67664316?v=4" alt="Tomos Github Avatar"></img>
 
@@ -76,11 +77,11 @@ function App() {
                         </p>
                     </div>
 
-                    <div className="h-[30%] mx-[5%]">
+                    <div className="h-[30%] w-screen">
                         <p className="pt-[50px] text-ellipsis text-center lg:text-[1.5em] leading-relaxed">
                             Feel free to check out the other webpages which are below, and in the navbar at the top.
                         </p>
-                        <nav className="h-[5%] text-center space-x-16 leading-10 items-center">
+                        <nav className="h-[5%] text-center space-x-1 sm:space-x-1 md:space-x-5 lg:space-x-8 leading-10 items-center">
                             <NavLink to="/" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Home</NavLink>
                             <NavLink to="languages" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Languages</NavLink>
                             <NavLink to="games" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Games</NavLink>
