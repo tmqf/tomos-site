@@ -63,7 +63,7 @@ function App() {
 
             {/* SECOND DIV */}
             <div className="bg-surface1 flex flex-col flex-wrap item-stretch">
-                <div className="h-screen">
+                <div className="h-[90%] mx-[1%]">
                     <div className="h-[50%] pt-[5%] w-screen">
 
                         <img className="h-[30%] rounded-full sm:h-[30%] md:h-[30%] lg:h-[40%] mx-auto" src="https://avatars.githubusercontent.com/u/67664316?v=4" alt="Tomos Github Avatar"></img>
@@ -85,11 +85,10 @@ function App() {
                             <NavLink to="/" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Home</NavLink>
                             <NavLink to="languages" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Languages</NavLink>
                             <NavLink to="games" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Games</NavLink>
-                            <NavLink to="about" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">About</NavLink>
+                            <NavLink to="extras" className="text-base p-2 px-4 rounded-full bg-blue hover:bg-lavender">Extras</NavLink>
                         </nav>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

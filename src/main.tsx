@@ -7,7 +7,7 @@ import App from './App'
 import Layout from "./Layout";
 import Languages from "./routes/languages/Languages";
 import Games from "./routes/games/Games";
-import About from "./routes/about/About";
+import Extras from "./routes/extras/Extras";
 
 const router = createBrowserRouter([
     {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
 
             },
             {
-                path: "about",
-                element: <About/>
+                path: "extras",
+                element: <Extras/>
 
             },
 
