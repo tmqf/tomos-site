@@ -22,7 +22,7 @@ function Extras() {
 
                     </div>
                     <div className="w-screen sm:w-screen md:w-screen lg:w-[45%] select-none text-center">
-                        <p className="text-[0.5em] sm:text-[0.7em] md:text-[0.73em] lg:text-[1em] pt-[15%]">
+                        <p className="text-[0.5em] sm:text-[0.6em] md:text-[0.8em] lg:text-[1em] pt-[0%] sm:pt-[1%] md:pt-[1%] lg:pt-[5%]">
                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⡟⠀⠀⠀⠀⠀⠀⠀
                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣷⣌⠙⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⣡⡶⡇⠀⠀⠀⠀⠀⠀⠀
                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢻⡌⠳⣄⠉⠳⢤⠴⠒⠛⠛⠛⠛⠒⠦⢤⡤⠚⣡⠞⢁⣿⡇⠀⠀⠀⠀⠀⠀⠀
