@@ -105,7 +105,7 @@ function App() {
               <Card
                 title="Github"
                 description="My Github profile which contains all my projects. Unfinished, finished, and current."
-                imageUrl="/assets/github.png"
+                imageUrl="https://drive.google.com/file/d/1S7CGc_EGzPtpn52KC6fx2Jsw4olWyEUW/view?usp=sharing"
                 redirectUrl="https://github.com/tmqf"
               />
 
@@ -119,14 +119,15 @@ function App() {
               <Card
                 title="Discord"
                 description="My personal Discord account. Feel free to add me."
-                imageUrl="/assets/discord.png"
+                imageUrl="https://lh3.google.com/u/0/d/14bV76ITg6EaPzYYCBA52tmllw3jPw-jI=w1920-h963-iv1"
                 redirectUrl="http://discordapp.com/users/790506160523706388"
               />
 
               <Card
                 title="Anilist"
                 description="Personal Anilist, feel free to follow me."
-                imageUrl="/assets/anilist.png"
+                imageUrl="https://lh3.googleusercontent.com/fife/AGXqzDk83Y3cYXTfaDwa8lfCjHYQft9ReSHikbYzVlx0cjmOHJmlPS2km7ayiDy0KYyhOdcNFM-6F-Q16HFFVflEpBFvYBnvv05AoDg23Sg3ngd2UacRiBXsD7o-WvSUmeGpP_F3tpMBrdiA0eRI_X6S2CPW3H3gePuWQGg1E5dS3gmlKRy7XmJbQGj-VHGmnamhtlbB2OgNf9pRucoygkl6_E5hGlO3MAuRVSyZXsU0phKNqr7kB0Es7N8TyndpDJoRu22Hc8Pk-P1On6OTYagLDS8gibaSQ-7v3-1QOH7aGyimmlzV1mZGFCWtbLxB-IOsnWCSEO0wqh6I3UEGROFBuhDJScUtDP8aJM-ED57eBqR51MF1QQeCqZlP9ZFtejug1UtvLQaXuSW_zp1MsFN8QKnl3Q-hDHRBZ4OPqbkcL7_QHCQrcqmN7YnYPYa4XKeVPXyT0v7gaRVJxSgYQszHRWFYh6XhHnw7r5Q1WRoldWiMlldkEB30SXRnGiIwXQR2u1xwhQHO6dtY-_0nIJRBU0KVkUGPinF2eQgQa8QYhVJ4Lkl5PFwSBOJazZrRyEqePEGuYZ6frzGPM-UIurpKwvb2grYyJJ0jXCgMLTMCECA4ova18FrJbK_MNE3UQRAfOMaHseLZyyqYDOljGndhJNAT0eY6F6FrrVEPj6NNZR4zYdz7wxbqSZttABkzB1sgKH5Nz0WAxP_Bi0NOBjqfbTY_yjRcD7ij4PSyddOk-bTXKnXWa-jW8vnGvcbd1BXzFy_LXiiDj4t_OAninghnTSve1abFvp3d5XR8Z8XiXZRvcoeAzQHa06TZa0QO7-_J7SiOEyTHVHI10BY8xXHU0U9CIyEOuJdb8kKsSbavttTyq8-_KrlNhIh9lC2JHcgS_Ank1m90ggDrOrxUMiqFUeel9nn6-obxLOAaVQ3X12O-=w1920-h963"
+
                 redirectUrl="https://anilist.co/user/javascript/"
               />
             </div>
