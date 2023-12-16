@@ -53,7 +53,7 @@ function App() {
       </div>
 
       {isProjectPanelOpen && (
-        <div className="fixed inset-0 flex items-center justify-center backdrop-blur-md bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center  bg-opacity-50">
           <div className={`bg-white w-full h-full lg:w-2/3 lg:h-2/3 sm:w-full sm:h-full rounded-lg flex flex-col items-center shadow-custom ${animationClass}`}>
             <button
               className="absolute top-4 right-4 text-red-300 hover:text-red-400 transition-colors duration-300"
@@ -90,7 +90,7 @@ function App() {
       )}
 
       {isLinksPanelOpen && (
-        <div className="fixed inset-0 flex items-center justify-center backdrop-blur-md bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center  bg-opacity-50">
           <div className={`bg-white w-full h-full sm:w-full sm:h-full lg:w-2/3 lg:h-2/3 rounded-lg flex flex-col items-center shadow-custom ${animationClass}`}>
             <button
               className="absolute top-4 right-4 text-red-300 hover:text-red-400 transition-colors duration-300 md:top-0"
