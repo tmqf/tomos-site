@@ -68,7 +68,7 @@ function App() {
               <Card
                 title="Eirlys"
                 description="Discord bot written in Rust"
-                imageUrl="/assets/placeholder-hanni.jpg"
+                imageUrl="https://i.ibb.co/Xj5b5XX/placeholder-hanni.jpg"
                 redirectUrl="https://github.com/tmqf/Eirlys"
                 date="2023 - Current"
                 finished={false}
@@ -78,7 +78,7 @@ function App() {
               <Card
                 title="Token"
                 description="Website created in Flask"
-                imageUrl="/assets/placeholder-minji.jpg"
+                imageUrl="https://i.ibb.co/d7YBgMz/placeholder-minji.jpg"
                 redirectUrl="https://github.com/tmqf/Token"
                 date="2022 - 2023"
                 finished={false}
@@ -105,29 +105,28 @@ function App() {
               <Card
                 title="Github"
                 description="My Github profile which contains all my projects. Unfinished, finished, and current."
-                imageUrl="https://drive.google.com/file/d/1S7CGc_EGzPtpn52KC6fx2Jsw4olWyEUW/view?usp=sharing"
+                imageUrl="https://i.ibb.co/C9gbbtR/github.png"
                 redirectUrl="https://github.com/tmqf"
               />
 
               <Card
                 title="Twitter (X)"
                 description="My private Twitter account. Unrelated to programming"
-                imageUrl="/assets/twitter.png"
+                imageUrl="https://i.postimg.cc/R3k6qk6d/twitter.png"
                 redirectUrl="https://twitter.com/tmqf_"
               />
 
               <Card
                 title="Discord"
                 description="My personal Discord account. Feel free to add me."
-                imageUrl="https://drive.google.com/file/d/14bV76ITg6EaPzYYCBA52tmllw3jPw-jI/view?usp=sharing"
+                imageUrl="https://i.ibb.co/zGcmP0X/discord.png"
                 redirectUrl="http://discordapp.com/users/790506160523706388"
               />
 
               <Card
                 title="Anilist"
                 description="Personal Anilist, feel free to follow me."
-                imageUrl="https://drive.google.com/file/d/1S7CGc_EGzPtpn52KC6fx2Jsw4olWyEUW/view?usp=sharing"
-
+                imageUrl="https://i.ibb.co/N9hPPGx/anilist.png"
                 redirectUrl="https://anilist.co/user/javascript/"
               />
             </div>
