@@ -126,7 +126,7 @@ function App() {
               <Card
                 title="Anilist"
                 description="Personal Anilist, feel free to follow me."
-                imageUrl="/anilist.png"
+                imageUrl="../src/assets/anilist.png"
                 redirectUrl="https://anilist.co/user/javascript/"
               />
             </div>
