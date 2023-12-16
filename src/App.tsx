@@ -68,7 +68,7 @@ function App() {
               <Card
                 title="Eirlys"
                 description="Discord bot written in Rust"
-                imageUrl="../src/assets/placeholder-hanni.jpg"
+                imageUrl="/assets/placeholder-hanni.jpg"
                 redirectUrl="https://github.com/tmqf/Eirlys"
                 date="2023 - Current"
                 finished={false}
@@ -78,7 +78,7 @@ function App() {
               <Card
                 title="Token"
                 description="Website created in Flask"
-                imageUrl="../src/assets/placeholder-minji.jpg"
+                imageUrl="/assets/placeholder-minji.jpg"
                 redirectUrl="https://github.com/tmqf/Token"
                 date="2022 - 2023"
                 finished={false}
@@ -105,28 +105,28 @@ function App() {
               <Card
                 title="Github"
                 description="My Github profile which contains all my projects. Unfinished, finished, and current."
-                imageUrl="../src/assets/github.png"
+                imageUrl="/assets/github.png"
                 redirectUrl="https://github.com/tmqf"
               />
 
               <Card
                 title="Twitter (X)"
                 description="My private Twitter account. Unrelated to programming"
-                imageUrl="../src/assets/twitter.png"
+                imageUrl="/assets/twitter.png"
                 redirectUrl="https://twitter.com/tmqf_"
               />
 
               <Card
                 title="Discord"
                 description="My personal Discord account. Feel free to add me."
-                imageUrl="../src/assets/discord.png"
+                imageUrl="/assets/discord.png"
                 redirectUrl="http://discordapp.com/users/790506160523706388"
               />
 
               <Card
                 title="Anilist"
                 description="Personal Anilist, feel free to follow me."
-                imageUrl="../src/assets/anilist.png"
+                imageUrl="/assets/anilist.png"
                 redirectUrl="https://anilist.co/user/javascript/"
               />
             </div>
