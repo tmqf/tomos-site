@@ -82,3 +82,17 @@ body {
     color: var(--primary);
     transition: 0.3s;
 }
+
+@media (max-width: 600px) {
+    .main-section img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 810px) {
+    .main-section img {
+        width: 35%;
+        height: auto;
+    }
+}
