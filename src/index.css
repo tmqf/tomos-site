@@ -1,3 +1,84 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+    --text: #eae4f0;
+    --background: #120b18;
+    --primary: #b894d7;
+    --secondary: #592784;
+    --accent: #8f42d4;
+
+
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 10px auto; /* Center container */
+    width: 80%;
+    min-width: 80%;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.nav-container a:hover {
+    color: var(--accent);
+    transition: 0.3s;
+}
+
+.main-section {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section h1 {
+    text-align: center;
+}
+
+.main-section h1 span {
+    color: var(--accent);
+}
+
+.main-section img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+}
+
+.main-section p {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.main-section a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.main-section a:hover {
+    color: var(--primary);
+    transition: 0.3s;
+}
